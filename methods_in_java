@@ -1,0 +1,81 @@
+/* chalo
+
+ * this program prompts user to enter values and the program checks and determines the numbers that are great and small
+ * 
+
+*/
+package javamethods;// this is the folder where the source code is
+import java.util.Scanner;
+
+public class methods {
+public static void number(int val1,int val2,int val3 ) {
+
+	Scanner input=new Scanner(System.in);	
+	System.out.print("enter the first number");
+	val1=input.nextInt();
+	System.out.print("enter the two number");
+	val2=input.nextInt();
+	System.out.print("enter the three number");
+	val3=input.nextInt();
+	
+	if ((val1>val2)==true) // here we will use the repetition function
+	{
+		if(val1>val3) {
+			System.out.print( "the largest number is:"+val1);
+			
+		}
+		else
+		{
+			System.out.print("the smallest number is:"+val3);//output once the boolean turns false
+		}
+	}
+	if ((val1>val2)==false)
+	{
+		if(val2>val3)
+		{
+			System.out.print( "the largest number is :"+val2);
+		}
+		else
+		{ 
+			System.out.print("the smallest number is :"+num2); // outputs this nce the boolean turns true
+		}
+	}
+	System.out.print("\n");
+	//this is to display the smallest
+	
+	
+	if ((val1<val2)==false) // here we will use the repetition function
+	{
+		if(val1<val2) {
+			System.out.print( "the largest number is:"+val1);
+			
+		}
+		else
+		{
+			System.out.print("the smallest number is:"+val3);//output once the boolean turns false
+		}
+	}
+	if ((val1<val2)==true)
+	{
+		if(val2<val3)
+		{
+			System.out.print( "the largest number is :"+val2);
+		}
+		else
+		{ 
+			System.out.print("the smallest number is :"+val3);
+		}	// outputs this nce the boolean turns true
+	}
+
+}
+	public static void main(String[] args) {
+	number(0, 0, 0);
+	
+	
+	
+	
+		// TODO Auto-generated method stub
+
+	}
+
+}
