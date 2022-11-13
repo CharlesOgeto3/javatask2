@@ -1,4 +1,4 @@
-/* Musembi 
+/* **Musembishres**  chales ogeto 
  * java programming
  * the user enters the three marks of the unit and it calculates and compute the marks of math, networking and java programming and later it gives the average 
  * 
